@@ -12,8 +12,9 @@ pipeline {
         
         stage('Test') {
             steps {
-            sh 'sudo apt install npm'
-            sh 'npm test'
+            sh './home/rojo/Projet vscode/Nodejenkins/test/mytest.test.js'
+'
+          
             }
         }
 
